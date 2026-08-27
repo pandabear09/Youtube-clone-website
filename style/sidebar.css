@@ -1,0 +1,206 @@
+.sidebar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    top: 80px;
+    background-color: white;
+    width: 205px;
+    
+}
+.sidebar:hover{
+    overflow-y: auto;
+}
+.subscription:hover{
+    /*this is a comment and this style below will be inherited*/
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+    
+}
+.shorts:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.home:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.history:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.liked:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.watch-later:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.your-videos:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.playlist:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+
+
+.top{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(222, 218, 218);
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-left: 10px;
+}
+.second,.third{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(222, 218, 218);
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-left: 10px;
+}
+
+
+.top img{
+    height:70%;
+    
+}
+.second img, .third img{
+    height:70%;
+}
+.You:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.You,.Explore{
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    width:120px;
+    height: 35px;
+    padding-left: 10px;
+    font-family: Roboto, arial;
+    font-size: 17px; 
+}
+.Explore:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.trending:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.shopping:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.movies:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.Live:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.gaming:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.news:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.sports:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.courses:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.fashion:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.podcasts:hover{
+    background-color:rgb(243, 240, 240) ;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: font-weight 0.1s;
+}
+.home, .shorts, .subscription,.history,.playlist,.your-videos, .watch-later,.liked,.movies,.trending,.shopping,.Live,.gaming,.news,.sports,.courses,.fashion,.podcasts{
+    display:inline;
+    width: 205px;
+    height: 36px;
+    
+    
+}
+.side-img1,.side-img2, .side-img3,.side-img4,.side-img5,.side-img6,.side-img7,.side-img8,.side-img9{
+    width:30px;
+    display: inline-block;
+    height:100%;
+    padding-left: 10px;
+    padding-top: 5px;
+   
+}
+.side-text1, .side-text2, .side-text3,.side-text5,.side-text6,.side-text7,.side-text8,.side-text9{
+    display: inline-block;
+    width:120px;
+    height: 30px;
+    padding-left: 15px;
+    font-family: Roboto, arial;
+    font-size: 15px;
+    vertical-align:7px;
+    
+}

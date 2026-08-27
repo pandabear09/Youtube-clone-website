@@ -1,0 +1,134 @@
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 100;
+    padding-bottom: 20px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+
+}
+.lines{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 22px;
+    margin-top: 6px;
+}
+.youtube-logo{
+    height: 20px;
+    margin-top: 6px;
+    width: 100px;
+}
+.middle-section{
+    
+    flex: 1;
+    margin-left:80px;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+
+}
+.search-box{
+    flex:1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgb(219, 217, 217);
+    border-style: solid;
+    border-top-left-radius: 30px;
+    padding-right: 0px;
+    border-bottom-left-radius:30px ;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+    width: 0;
+    
+}
+.search-box::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search{
+    height: 40px;
+    width: 65px;
+    background-color: rgb(248, 248, 248);
+    border-color:rgb(219, 217, 217);
+    border-style:solid;
+    margin-left: -1px;
+    border-width: 0px;
+    margin-right: 10px;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border-width: 1px;
+
+
+}
+.search-icon{
+    height: 25px;
+}
+
+.voice-search{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-width: 0px;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+}
+.voice-search-icon{
+    height: 25px;
+    width: 25px;
+}
+.right-section{
+    width:250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 26px;
+    flex-shrink: 0;
+}
+.create-icon{
+    height: 35px;
+    padding-left: 30px;
+    
+    
+}
+.notifications-icon{
+    height: 25px;
+    padding-top: 5px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    top: 1px;
+    right: -3px;
+    background-color: rgb(205, 36, 36);
+    color: white;
+    font-family: Roboto, arial;
+    font-size:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.profile-icon{
+    height: 40px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+}
